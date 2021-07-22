@@ -89,7 +89,7 @@ function Display (){
 
     display.innerHTML+=`
     <br>
-    <div class='print b'> <p> Total </p> <p> ${total} </p> </div>
+    <div class='print b'> <p> Total </p> <p> ${total} / ${subject.length * 100} </p> </div>
     <div class='print b'> <p> Percentage </p> <p> ${pr.toFixed(2)} </p> </div>
     <div class='print b'> <p> Grade </p> <p> ${grade} </p> </div>
     <div class='print b'> <p> Status </p> <p> ${status} </p> </div>
